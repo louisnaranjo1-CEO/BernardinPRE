@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", sans-serif;
+  --font-display: "Poppins", sans-serif;
+  --font-mono: "Poppins", sans-serif;
+  --font-impact: "Poppins", sans-serif;
+
+  /* Bernardin Vibrant Green brand colors replacing old blues */
+  --color-neon-cyan: #10b981; /* Reassigned cyan variable to green so as not to break other components */
+  --color-neon-purple: #8b5cf6;
+  --color-neon-green: #39ff14; /* Pure Neon Green */
+  --color-neon-orange: #f59e0b;
+  --color-neon-pink: #10b981; /* Replaced red/pink with high-contrast emerald green */
+}
+
+/* Green scroll-adaptive background styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #010402 0%, #020a04 25%, #031406 50%, #051d0a 75%, #010502 100%);
+  background-attachment: scroll;
+}
+
+/* Custom background dot pattern for the engineering-tech feel */
+.bg-dot-pattern {
+  background-image: radial-gradient(rgba(57, 255, 20, 0.08) 1.2px, transparent 1.2px);
+  background-size: 32px 32px;
+}
+
+/* High impact styling for titles with Poppins heavy weight */
+.font-impact {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+}
+
+/* Custom Glowing effects */
+.text-glow-cyan {
+  text-shadow: 0 0 10px rgba(16, 185, 129, 0.6), 0 0 20px rgba(57, 255, 20, 0.3);
+}
+
+.text-glow-purple {
+  text-shadow: 0 0 10px rgba(139, 92, 246, 0.6), 0 0 20px rgba(139, 92, 246, 0.3);
+}
+
+.text-glow-green {
+  text-shadow: 0 0 10px rgba(57, 255, 20, 0.8), 0 0 20px rgba(16, 185, 129, 0.4);
+}
+
+/* Custom Neon Card Shadows */
+.shadow-neon-cyan {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.1), inset 0 0 12px rgba(57, 255, 20, 0.03);
+}
+.shadow-neon-cyan-hover:hover {
+  box-shadow: 0 0 30px rgba(57, 255, 20, 0.25), inset 0 0 20px rgba(16, 185, 129, 0.1);
+  border-color: rgba(57, 255, 20, 0.5);
+}
+
+.shadow-neon-purple {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.1), inset 0 0 12px rgba(139, 92, 246, 0.03);
+}
+.shadow-neon-purple-hover:hover {
+  box-shadow: 0 0 30px rgba(139, 92, 246, 0.2), inset 0 0 20px rgba(139, 92, 246, 0.1);
+  border-color: rgba(139, 92, 246, 0.5);
+}
+
+.shadow-neon-green {
+  box-shadow: 0 0 20px rgba(57, 255, 20, 0.15), inset 0 0 12px rgba(57, 255, 20, 0.05);
+}
+.shadow-neon-green-hover:hover {
+  box-shadow: 0 0 30px rgba(57, 255, 20, 0.35), inset 0 0 20px rgba(57, 255, 20, 0.12);
+  border-color: rgba(57, 255, 20, 0.75);
+}
+
+.shadow-neon-orange {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.1), inset 0 0 12px rgba(245, 158, 11, 0.03);
+}
+.shadow-neon-orange-hover:hover {
+  box-shadow: 0 0 30px rgba(245, 158, 11, 0.2), inset 0 0 20px rgba(245, 158, 11, 0.1);
+  border-color: rgba(245, 158, 11, 0.5);
+}
+
+.shadow-neon-pink {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.15), inset 0 0 12px rgba(16, 185, 129, 0.05);
+}
+.shadow-neon-pink-hover:hover {
+  box-shadow: 0 0 30px rgba(57, 255, 20, 0.25), inset 0 0 20px rgba(16, 185, 129, 0.1);
+  border-color: rgba(57, 255, 20, 0.5);
+}
+
+.shadow-neon-blue {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.1), inset 0 0 12px rgba(16, 185, 129, 0.03);
+}
+.shadow-neon-blue-hover:hover {
+  box-shadow: 0 0 30px rgba(57, 255, 20, 0.25), inset 0 0 20px rgba(16, 185, 129, 0.1);
+  border-color: rgba(57, 255, 20, 0.5);
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #010402;
+}
+::-webkit-scrollbar-thumb {
+  background: #103215;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #39ff14;
+}
