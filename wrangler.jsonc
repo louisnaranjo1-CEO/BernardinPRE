@@ -1,6 +1,7 @@
 {
   "name": "bernardinpre",
   "compatibility_date": "2026-06-20",
+  "workers_dev": true,
   "assets": {
     "directory": "./dist"
   }
