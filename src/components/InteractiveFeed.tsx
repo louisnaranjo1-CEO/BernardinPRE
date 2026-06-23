@@ -38,7 +38,7 @@ export default function InteractiveFeed() {
       id: 'post-2',
       title: 'Tractor Bernardin Serie Orion: Potencia Pura',
       category: 'Campaña',
-      imageUrl: 'https://images.unsplash.com/photo-1599940824399-b87987ceb72a?auto=format&fit=crop&w=600&q=80', // Powerful farm tractor
+      imageUrl: 'https://firebasestorage.googleapis.com/v0/b/equipazoapp.firebasestorage.app/o/Bernardin%2FBernardin_M%C3%A1quinas_Agr%C3%ADcolas_en_%E2%80%A6_202606231218.jpeg?alt=media&token=018c6f47-442b-4277-8548-a2ac45433c23', // Powerful farm tractor
       caption: '📍 Desplegados en el corazón cerealero llanero. El Tractor Bernardin Serie Orion está listo para la preparación del suelo de siembra. Robustez mecánica simplificada que garantiza que el trabajo NUNCA se detenga. Repuestos originales garantizados a nivel nacional.\n\n¿Listo para revolucionar tu producción? Escríbenos directamente al link de la bio. 📲\n\n#Bernardin #Guarico #Barinas #Tractores #Siembra #Maiz #VenezuelaProductiva',
       likes: 289,
       comments: 19,
@@ -48,7 +48,7 @@ export default function InteractiveFeed() {
       id: 'post-3',
       title: 'Soporte Técnico en Finca: Garantía de Campo',
       category: 'Educativo',
-      imageUrl: 'https://images.unsplash.com/photo-1605001011158-e7206d7db4c3?auto=format&fit=crop&w=600&q=80', // Farming technology agronomy
+      imageUrl: 'https://firebasestorage.googleapis.com/v0/b/equipazoapp.firebasestorage.app/o/Bernardin%2FFlyer_con_logo_y_web_202606201312.jpeg?alt=media&token=44bc23f1-061b-42f1-8ae0-b67346e6179c', // Farming technology agronomy
       caption: '🛠️ EN EL TERRENO CUANDO MÁS NOS NECESITAS. En Bernardin Venezuela entendemos que un día de parada es comida perdida. Por eso, nuestros ingenieros y mecánicos certificados se trasladan directamente a tu unidad de producción con stock inmediato de consumibles originales.\n\nTu tranquilidad es nuestro único estándar de servicio. 🚜🇻🇪\n\n#ServicioTecnico #SoporteBernardin #Repuestos #MaquinariaAgricola #Cojedes #Anzoategui',
       likes: 512,
       comments: 63,
@@ -58,7 +58,7 @@ export default function InteractiveFeed() {
       id: 'post-4',
       title: 'Sistemas Inteligentes de Monitoreo Bernardin',
       category: 'Técnico',
-      imageUrl: 'https://images.unsplash.com/photo-1560697529-7236591c0066?auto=format&fit=crop&w=600&q=80', // Agricultural tech tablet/monitoring
+      imageUrl: 'https://firebasestorage.googleapis.com/v0/b/equipazoapp.firebasestorage.app/o/Bernardin%2FFlyer_con_logo_y_web_202606201312.jpeg?alt=media&token=44bc23f1-061b-42f1-8ae0-b67346e6179c', // Agricultural tech tablet/monitoring
       caption: '📈 INGENIERÍA DE DATOS AL SERVICIO DE TU RENDIMIENTO. Controla el consumo de combustible, la pérdida de granos por hectárea y la velocidad de trilla en tiempo real desde nuestra app integrada con Inteligencia Artificial. Menos improvisación, más ganancias óptimas.\n\nLa tecnología que respeta tu esfuerzo llanero.\n\n#AgroTech #MaquinariaInteligente #BernardinAI #SoundAndArt #TecnologiaAgricola',
       likes: 405,
       comments: 31,
@@ -68,7 +68,7 @@ export default function InteractiveFeed() {
       id: 'post-5',
       title: 'Demostración Dinámica: Bernardin M240',
       category: 'Detrás de Cámara',
-      imageUrl: 'https://images.unsplash.com/photo-1594136905280-973b740be839?auto=format&fit=crop&w=600&q=80', // Agricultural expo / machine show
+      imageUrl: 'https://firebasestorage.googleapis.com/v0/b/equipazoapp.firebasestorage.app/o/Bernardin%2FBernardin_M%C3%A1quinas_Agr%C3%ADcolas_en_%E2%80%A6_202606201320.jpeg?alt=media&token=dd930d41-be42-47a6-8099-fcc1050efddd', // Agricultural expo / machine show
       caption: '✨ ¡DÍA DE EXPO EN CALABOZO! Así vivimos la demostración activa de la majestuosa Bernardin M240 en plena trilla de arroz. Productores de todo el país constataron de cerca la limpieza perfecta con la que sale el grano directo a tolva.\n\nGracias a los valientes del campo que siguen apostando al crecimiento sustentable. 🌽🌾\n\n#Calabozo #Guarico #RiceExpos #TrillaEnVivo #BernardinPower',
       likes: 673,
       comments: 87,
@@ -78,7 +78,7 @@ export default function InteractiveFeed() {
       id: 'post-6',
       title: 'El Ciclo Productivo No Se Detiene',
       category: 'Campaña',
-      imageUrl: 'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=600&q=80', // Beautiful vast sunset and farm
+      imageUrl: 'https://firebasestorage.googleapis.com/v0/b/equipazoapp.firebasestorage.app/o/Bernardin%2FBernardin_M%C3%A1quinas_Agr%C3%ADcolas_en_%E2%80%A6_202606231218.jpeg?alt=media&token=018c6f47-442b-4277-8548-a2ac45433c23', // Beautiful vast sunset and farm
       caption: '🌅 Cuando el sol se oculta en Cojedes, la faena del tractorista apenas entra en su fase cumbre. Bernardin acompaña tus jornadas extendidas con faros LED de ultra alta intensidad y sistemas de cabina presurizada con climatización ergonómica.\n\nDiseñados por y para el productor exigente. 🇻🇪🌾\n\n#LlanosVenezolanos #Cojedes #Arrozal #FuerzaBernardin #FielAlCampo',
       likes: 421,
       comments: 29,
