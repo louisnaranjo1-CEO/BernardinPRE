@@ -28,7 +28,7 @@ export default function InteractiveFeed() {
       id: 'post-1',
       title: 'Cosechadora Bernardin M2120 en Portuguesa',
       category: 'Técnico',
-      imageUrl: 'https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&w=600&q=80', // Beautiful harvest machine working
+      imageUrl: 'https://firebasestorage.googleapis.com/v0/b/equipazoapp.firebasestorage.app/o/Bernardin%2FBernardin_M%C3%A1quinas_Agr%C3%ADcolas_en_%E2%80%A6_202606201320.jpeg?alt=media&token=dd930d41-be42-47a6-8099-fcc1050efddd', // Beautiful harvest machine working
       caption: '🔥 POTENCIA QUE INSPIRA CONFIANZA. Cosecho de arroz en los llanos de Portuguesa con la Bernardin M2120. Ingeniería robusta diseñada para soportar las condiciones más exigentes del suelo venezolano. Altísima eficiencia en grano limpio y la mejor relación costo-rendimiento del país. \n\n⚙️ Ficha Técnica:\n• Motor Turbo Intercooler 210HP\n• Plataforma autonivelante 25 píes\n• Tracción doble hidrostática\n\n#BernardinVenezuela #Portuguesa #Llanos #Cosechadora #MaquinariaAgricola #Arroz #VenezuelaAgro',
       likes: 348,
       comments: 42,
@@ -167,7 +167,7 @@ export default function InteractiveFeed() {
                     <div className="w-14 h-14 rounded-full p-[2px] bg-gradient-to-tr from-yellow-400 via-[#39ff14] to-emerald-600">
                       <div className="w-full h-full rounded-full bg-black p-0.5">
                         <img 
-                          src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=150&q=80" 
+                          src="https://firebasestorage.googleapis.com/v0/b/equipazoapp.firebasestorage.app/o/Bernardin%2Fbernardin.png?alt=media&token=d1624b86-0fc1-4ca7-9624-d13076d670ce" 
                           alt="Logotipo Bernardin Venezuela" 
                           className="w-full h-full rounded-full object-cover"
                           referrerPolicy="no-referrer"
@@ -247,7 +247,7 @@ export default function InteractiveFeed() {
                     <div className="flex items-center gap-2.5 mb-3">
                       <div className="w-8 h-8 rounded-full p-[1.5px] bg-[#39ff14]">
                         <img 
-                          src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=150&q=80" 
+                          src="https://firebasestorage.googleapis.com/v0/b/equipazoapp.firebasestorage.app/o/Bernardin%2Fbernardin.png?alt=media&token=d1624b86-0fc1-4ca7-9624-d13076d670ce" 
                           alt="Logo Avatar" 
                           className="w-full h-full object-cover rounded-full bg-black p-0.5"
                           referrerPolicy="no-referrer"
@@ -589,7 +589,7 @@ export default function InteractiveFeed() {
                     <div className="w-10 h-10 rounded-full p-[1.5px] bg-[#39ff14]">
                       <div className="w-full h-full rounded-full bg-black p-0.5">
                         <img 
-                          src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=150&q=80" 
+                          src="https://firebasestorage.googleapis.com/v0/b/equipazoapp.firebasestorage.app/o/Bernardin%2Fbernardin.png?alt=media&token=d1624b86-0fc1-4ca7-9624-d13076d670ce" 
                           alt="Logo Avatar" 
                           className="w-full h-full object-cover rounded-full"
                           referrerPolicy="no-referrer"
