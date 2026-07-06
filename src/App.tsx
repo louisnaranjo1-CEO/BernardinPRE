@@ -319,10 +319,10 @@ export default function App() {
             {activeSlide === 3 && (
               <div className="space-y-6">
                 <div className="text-left max-w-3xl space-y-2 border-b border-zinc-900/60 pb-4">
-                  <span className="text-xs uppercase font-mono tracking-widest text-[#39ff14] font-semibold">Simulador de Experiencia de Marca</span>
-                  <h2 className="text-3xl md:text-5xl font-impact text-white uppercase">Identidad de Marca e Ingeniería</h2>
+                  <span className="text-xs uppercase font-mono tracking-widest text-[#39ff14] font-semibold">Galería de Impacto Visual</span>
+                  <h2 className="text-3xl md:text-5xl font-impact text-white uppercase">Galería de Medios e Ingeniería</h2>
                   <p className="text-xs sm:text-sm text-gray-400 font-sans max-w-2xl">
-                    Prueba y explora las opciones. Haz clic en las pestañas coloridas del reproductor para experimentar de manera interactiva el Feed Oficial, comparativas de anuncios y secuencias narrativas.
+                    Explora nuestra galería multimedia interactiva. Filtra por tipo de contenido (fotos o videos) y categorías técnicas para visualizar las máquinas Bernardin en acción y campañas de marca.
                   </p>
                 </div>
                 
