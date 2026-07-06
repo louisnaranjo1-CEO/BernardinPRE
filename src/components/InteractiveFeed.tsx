@@ -93,12 +93,12 @@ export default function InteractiveFeed() {
     {
       id: 'item-6',
       type: 'video',
-      videoType: 'youtube',
+      videoType: 'direct',
       title: 'Demostración Dinámica: Tecnologías Agrícolas',
       category: 'Detrás de Cámara',
-      mediaUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+      mediaUrl: 'https://firebasestorage.googleapis.com/v0/b/equipazoapp.firebasestorage.app/o/Bernardin%2FVIDEO-2026-07-06-16-54-37.mov?alt=media&token=b03faeac-51fb-4860-ae26-6b1e91a4fbe7',
       thumbnailUrl: 'https://images.pexels.com/photos/2887463/pexels-photo-2887463.jpeg?auto=compress&cs=tinysrgb&w=640',
-      description: 'Ejemplo de video interactivo alojado en YouTube. El sistema de la galería integra reproductores externos fluidamente mediante iframes, facilitando la adición de tus campañas y videos subidos a tu canal.',
+      description: 'Demostración activa de la maquinaria Bernardin en condiciones reales de campo. Detrás de cámara exclusivo que capta la potencia y el desempeño de nuestros sistemas agrícolas de alta gama.',
       date: 'Hace 1 semana'
     }
   ];
@@ -228,13 +228,24 @@ export default function InteractiveFeed() {
                 className="relative aspect-video rounded-2xl overflow-hidden cursor-pointer group bg-zinc-950 border border-zinc-900 hover:border-[#39ff14]/50 hover:shadow-[0_0_20px_rgba(57,255,20,0.15)] transition-all duration-300"
               >
                 {/* Media preview element */}
-                <img
-                  src={item.type === 'image' ? item.mediaUrl : (item.thumbnailUrl || 'https://images.pexels.com/photos/2255441/pexels-photo-2255441.jpeg')}
-                  alt={item.title}
-                  className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
-                  loading="lazy"
-                  referrerPolicy="no-referrer"
-                />
+                {/* Media preview element */}
+                {item.type === 'video' ? (
+                  <video
+                    src={`${item.mediaUrl}#t=0.1`}
+                    className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
+                    preload="metadata"
+                    playsInline
+                    muted
+                  />
+                ) : (
+                  <img
+                    src={item.mediaUrl}
+                    alt={item.title}
+                    className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
+                    loading="lazy"
+                    referrerPolicy="no-referrer"
+                  />
+                )}
 
                 {/* Constant bottom gradient overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-85 group-hover:opacity-95 transition-all duration-300" />
