@@ -56,7 +56,7 @@ export default function InteractiveFeed() {
       videoType: 'direct',
       title: 'Cosechadora en Acción (Técnica de Trilla)',
       category: 'Técnico',
-      mediaUrl: 'https://videos.pexels.com/video-files/4458311/4458311-sd_640_360_24fps.mp4',
+      mediaUrl: 'https://firebasestorage.googleapis.com/v0/b/equipazoapp.firebasestorage.app/o/vertical.mp4?alt=media&token=861a3497-f021-4108-8dca-57016b5b90ee',
       thumbnailUrl: 'https://images.pexels.com/photos/2255441/pexels-photo-2255441.jpeg?auto=compress&cs=tinysrgb&w=640',
       description: 'Vista aérea técnica del desplazamiento lineal y la trilla de alto rendimiento. Los sistemas Bernardin maximizan el aprovechamiento de grano en cultivos de alta densidad, disminuyendo la pérdida por hectárea.',
       date: 'Hace 1 día'
@@ -76,7 +76,7 @@ export default function InteractiveFeed() {
       videoType: 'direct',
       title: 'Trabajo de Suelos con Tractor Bernardin',
       category: 'Campaña',
-      mediaUrl: 'https://videos.pexels.com/video-files/3195393/3195393-sd_640_360_25fps.mp4',
+      mediaUrl: 'https://firebasestorage.googleapis.com/v0/b/equipazoapp.firebasestorage.app/o/animacion%20.mp4?alt=media&token=a20c938b-3014-4d41-a42f-b347806d52aa',
       thumbnailUrl: 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&w=640',
       description: 'Demostración de fuerza de arrastre y torque constante. La Serie Orion destaca por su sistema de transmisión simplificado de alta duración y consumo de combustible optimizado para pautas agrícolas continuas.',
       date: 'Hace 3 días'
