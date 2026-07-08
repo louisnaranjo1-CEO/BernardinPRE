@@ -366,6 +366,40 @@ export default function App() {
                   <PricingCalculator />
                 </div>
 
+                {/* Go to Next Slide callout */}
+                <motion.div 
+                  initial={{ scale: 0.95, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  transition={{ delay: 0.3 }}
+                  className="rounded-2xl p-6 bg-gradient-to-tr from-emerald-950/20 to-zinc-900/40 border border-emerald-950/40 text-center max-w-2xl mx-auto space-y-4 shadow-[0_0_15px_rgba(0,0,0,0.2)]"
+                >
+                  <div className="space-y-1">
+                    <h4 className="font-impact text-xl text-white uppercase">Siguiente Diapositiva: Esquema de Acuerdo</h4>
+                    <p className="text-xs text-gray-400 font-sans max-w-md mx-auto">
+                      Revisa el modelo de reintegro de inversión por ventas y la estrategia de contingencia agrícola.
+                    </p>
+                  </div>
+                  <div>
+                    <button 
+                      onClick={() => setActiveSlide(6)}
+                      type="button"
+                      className="px-6 py-3 rounded-xl bg-emerald-700 hover:bg-[#39ff14] text-white hover:text-black font-impact text-xs uppercase tracking-wider inline-flex items-center gap-1.5 transition-all duration-300 active:scale-95"
+                    >
+                      <span>Ver Acuerdo Bernardin</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                </motion.div>
+              </div>
+            )}
+
+            {/* Slide 6: Acuerdo Bernardin */}
+            {activeSlide === 6 && (
+              <div className="space-y-8">
+                <div className="bg-black/20 p-2 sm:p-5 rounded-2xl border border-zinc-900/60 backdrop-blur-sm">
+                  <AcuerdoSection />
+                </div>
+
                 {/* Final Closing Call to Action Badge within Slide */}
                 <motion.div 
                   initial={{ scale: 0.95, opacity: 0 }}
@@ -399,15 +433,6 @@ export default function App() {
                     </a>
                   </div>
                 </motion.div>
-              </div>
-            )}
-
-            {/* Slide 6: Acuerdo Bernardin */}
-            {activeSlide === 6 && (
-              <div className="space-y-6">
-                <div className="bg-black/20 p-2 sm:p-5 rounded-2xl border border-zinc-900/60 backdrop-blur-sm">
-                  <AcuerdoSection />
-                </div>
               </div>
             )}
 
