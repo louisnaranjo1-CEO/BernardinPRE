@@ -28,6 +28,7 @@ import AdsSimulator from './components/AdsSimulator';
 import PricingCalculator from './components/PricingCalculator';
 import TeamSection from './components/TeamSection';
 import AcuerdoSection from './components/AcuerdoSection';
+import CalendarioSection from './components/CalendarioSection';
 
 export default function App() {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -42,7 +43,8 @@ export default function App() {
     { id: 'estetica', title: 'Estética de Marca', status: 'Feed Interactivo' },
     { id: 'simulador', title: 'Simulador de Ads', status: 'Inversión por Provincias' },
     { id: 'precios', title: 'Presupuesto y Precios', status: 'Propuesta de Inversión' },
-    { id: 'acuerdo', title: 'Acuerdo Bernardin', status: 'Esquema de Reintegro' }
+    { id: 'acuerdo', title: 'Acuerdo Bernardin', status: 'Esquema de Reintegro' },
+    { id: 'calendario', title: 'Calendario Agrícola', status: 'Ciclos de Liquidez' }
   ];
 
   const prevSlide = () => {
@@ -398,6 +400,40 @@ export default function App() {
               <div className="space-y-8">
                 <div className="bg-black/20 p-2 sm:p-5 rounded-2xl border border-zinc-900/60 backdrop-blur-sm">
                   <AcuerdoSection />
+                </div>
+
+                {/* Go to Next Slide callout */}
+                <motion.div 
+                  initial={{ scale: 0.95, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  transition={{ delay: 0.3 }}
+                  className="rounded-2xl p-6 bg-gradient-to-tr from-emerald-950/20 to-zinc-900/40 border border-emerald-950/40 text-center max-w-2xl mx-auto space-y-4 shadow-[0_0_15px_rgba(0,0,0,0.2)]"
+                >
+                  <div className="space-y-1">
+                    <h4 className="font-impact text-xl text-white uppercase">Siguiente Diapositiva: Calendario Agrícola</h4>
+                    <p className="text-xs text-gray-400 font-sans max-w-md mx-auto">
+                      Revisa el calendario de ciclos productivos y picos de liquidez agrícola en Venezuela para sincronizar campañas.
+                    </p>
+                  </div>
+                  <div>
+                    <button 
+                      onClick={() => setActiveSlide(7)}
+                      type="button"
+                      className="px-6 py-3 rounded-xl bg-emerald-700 hover:bg-[#39ff14] text-white hover:text-black font-impact text-xs uppercase tracking-wider inline-flex items-center gap-1.5 transition-all duration-300 active:scale-95"
+                    >
+                      <span>Ver Calendario Agrícola</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                </motion.div>
+              </div>
+            )}
+
+            {/* Slide 7: Calendario Agrícola */}
+            {activeSlide === 7 && (
+              <div className="space-y-8">
+                <div className="bg-black/20 p-2 sm:p-5 rounded-2xl border border-zinc-900/60 backdrop-blur-sm">
+                  <CalendarioSection />
                 </div>
 
                 {/* Final Closing Call to Action Badge within Slide */}
