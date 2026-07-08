@@ -376,7 +376,7 @@ export default function App() {
                   <div className="space-y-1">
                     <h4 className="font-impact text-xl text-white uppercase">Siguiente Diapositiva: Esquema de Acuerdo</h4>
                     <p className="text-xs text-gray-400 font-sans max-w-md mx-auto">
-                      Revisa el modelo de reintegro de inversión por ventas y la estrategia de contingencia agrícola.
+                      Revisa el modelo de reintegro de inversión por ventas y la estrategia de captación y plan de alianzas gremiales.
                     </p>
                   </div>
                   <div>

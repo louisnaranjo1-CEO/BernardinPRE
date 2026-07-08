@@ -43,7 +43,7 @@ export default function PricingCalculator() {
       type: 'variable',
       features: [
         'Fidelización Local: Contratación de perfiles influyentes reales (Ingenieros Agrónomos venezolanos e Influencers Maquinaria).',
-        'Demostraciones Prácticas: Visitas a fincas, tomas dinámicas aéreas e instructivos en vivo trillando grano.',
+        'Demostraciones Prácticas: Producción de contenido dinámico explicativo, análisis de rendimiento e instructivos de alto valor estético.',
         'Campañas Específicas: Ideal para potenciar picos de venta estacionales (Campañas previas a los ciclos de siembra y cosecha).',
         'Suministro del Contenido: Publicación de primerísimo nivel para audiencias consolidadas del agro de hasta 200 mil personas.',
         'Estadísticas Transparentes: Reporte consolidado de interacciones y alcance del influencer seleccionado.'
@@ -140,8 +140,8 @@ export default function PricingCalculator() {
     doc.setTextColor(30, 41, 59);
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(22);
-    doc.text('Estructura de Portafolio Tecnico', margin, 75);
-    doc.text('& Plan de Inversion Adaptable', margin, 85);
+    doc.text('Estructura de Portafolio Técnico', margin, 75);
+    doc.text('& Plan de Inversión Adaptable', margin, 85);
 
     doc.setFillColor(228, 228, 231);
     doc.rect(margin, 92, contentWidth, 0.5, 'F');
@@ -150,7 +150,7 @@ export default function PricingCalculator() {
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(11);
     doc.setTextColor(16, 185, 129);
-    doc.text('INFORMACION GENERAL DE LA PROPUESTA', margin, 102);
+    doc.text('INFORMACIÓN GENERAL DE LA PROPUESTA', margin, 102);
 
     doc.setFont('helvetica', 'normal');
     doc.setFontSize(9.5);
@@ -165,12 +165,11 @@ export default function PricingCalculator() {
       currentY += 8;
     };
 
-    addDetailField('Cliente Target:', 'Maquinarias Bernardin Venezuela (Operacion de Marca)');
-    addDetailField('Director de Campana:', 'Louis Naranjo & Equipo de Sound and Art Publicidad');
+    addDetailField('Cliente Target:', 'Maquinarias Bernardin Venezuela (Operación de Marca)');
+    addDetailField('Director de Campaña:', 'Louis Naranjo & Equipo de Sound and Art Publicidad');
     addDetailField('WhatsApp de Contacto:', '+58 424 3258536');
     addDetailField('E-mail Corporativo:', 'gerencia@louismarketingve.com');
-    addDetailField('Fecha de Emision:', '20 de Junio, 2026');
-    addDetailField('Vigencia Comercial:', '60 Dias continuos');
+    addDetailField('Fecha de Emisión:', '20 de Junio, 2026');
 
     currentY += 4;
     // Caja estetica del resumen ejecutivo
@@ -182,12 +181,12 @@ export default function PricingCalculator() {
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(10);
     doc.setTextColor(15, 23, 42);
-    doc.text('SINTESIS DEL ENFOQUE ESTRATEGICO', margin + 5, currentY + 7);
+    doc.text('SÍNTESIS DEL ENFOQUE ESTRATÉGICO', margin + 5, currentY + 7);
 
     doc.setFont('helvetica', 'normal');
     doc.setFontSize(9);
     doc.setTextColor(82, 82, 91);
-    const summaryText = 'Esta alianza busca posicionar a Bernardin como el referente indiscutible de potencia, tecnologia y soporte tecnico en el territorio venezolano. Conectamos el cordon cerealero nacional con un sistema integrado de embudos de conversion digital, pauta inteligente segmentada por provincias y produccion cinematografica de campo de altisimo nivel.';
+    const summaryText = 'Esta alianza busca posicionar a Bernardin como el referente indiscutible de potencia, tecnología y soporte técnico en el territorio venezolano. Conectamos el cordón cerealero nacional con un sistema integrado de embudos de conversión digital, pauta inteligente segmentada por provincias y postproducción audiovisual de altísimo nivel para potenciar la marca.';
     const summarySplit = doc.splitTextToSize(summaryText, contentWidth - 10);
     doc.text(summarySplit, margin + 5, currentY + 14);
 
@@ -195,12 +194,12 @@ export default function PricingCalculator() {
     doc.setFont('helvetica', 'bolditalic');
     doc.setFontSize(9);
     doc.setTextColor(16, 185, 129);
-    doc.text('"El campo es el motor de una nacion, y las maquinas de Bernardin son la fuerza que la haran producir."', margin, pageHeight - 20);
+    doc.text('"El campo es el motor de una nación, y las máquinas de Bernardin son la fuerza que la harán producir."', margin, pageHeight - 20);
 
     doc.setFont('helvetica', 'normal');
     doc.setFontSize(8);
     doc.setTextColor(156, 163, 175);
-    doc.text('Pag. 1 de 3 | Propuesta de Marca Bernardin', margin, pageHeight - 12);
+    doc.text('Pág. 1 de 3 | Propuesta de Marca Bernardin', margin, pageHeight - 12);
 
     // ==========================================
     // SECCION DE FILOSOFIA Y EQUIPO (PAGINA 2)
@@ -221,7 +220,7 @@ export default function PricingCalculator() {
     doc.setTextColor(30, 41, 59);
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(14);
-    doc.text('1. PILARES COMERCIALES Y CELULAS ASIGNADAS', margin, 32);
+    doc.text('1. PILARES COMERCIALES Y CÉLULAS ASIGNADAS', margin, 32);
 
     doc.setFillColor(228, 228, 231);
     doc.rect(margin, 36, contentWidth, 0.5, 'F');
@@ -229,17 +228,17 @@ export default function PricingCalculator() {
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(10.5);
     doc.setTextColor(16, 185, 129);
-    doc.text('ENFOQUE DE COMUNICACION TECNICA:', margin, 44);
+    doc.text('ENFOQUE DE COMUNICACIÓN TÉCNICA:', margin, 44);
 
     doc.setFont('helvetica', 'italic');
     doc.setFontSize(10.5);
     doc.setTextColor(15, 23, 42);
-    doc.text('"No vendemos con publicidad generica, construimos confianza tecnica."', margin, 50);
+    doc.text('"No vendemos con publicidad genérica, construimos confianza técnica."', margin, 50);
 
     doc.setFont('helvetica', 'normal');
     doc.setFontSize(9.5);
     doc.setTextColor(82, 82, 91);
-    const philosophyParagraph = 'Para consolidar a Bernardin en la cumbre del mercado agropecuario venezolano, desplegamos un esquema de marketing donde convertimos las arduas especificaciones de manuales tecnicos en recursos interactivos de gran impacto. Generamos valor cinematografico en plena faena llanera para conectar directamente con las necesidades operativas de los productores y coordinamos el trafico calificado a cada concesionario de zona.';
+    const philosophyParagraph = 'Para consolidar a Bernardin en la cumbre del mercado agropecuario venezolano, desplegamos un esquema de marketing donde convertimos las arduas especificaciones de manuales técnicos en recursos interactivos de gran impacto. Elevamos a la marca mediante una postproducción audiovisual y dirección estelar de arte que conecta directamente con las necesidades operativas de los productores y canalizamos el tráfico de interés comercial.';
     const philosophyParagraphLines = doc.splitTextToSize(philosophyParagraph, contentWidth);
     doc.text(philosophyParagraphLines, margin, 56);
 
@@ -278,9 +277,9 @@ export default function PricingCalculator() {
     );
 
     renderCellOfTeam(
-      'B. Celula de Produccion Audiovisual de Campo (Filmmaking)',
-      'Despliegue directo al terreno llanero para levantar fotografias con drones, capturas cinematograficas trillando grano y demostraciones vivas que inspiran confianza total.',
-      ['Videos de Faena', 'Tomas Cinematicas', 'Material Multiplataforma'],
+      'B. Celula de Postproduccion y Alta Estetica Visual',
+      'Curacion de contenidos premium, direccion de arte digital y edicion cinematografica que resalta la ingenieria Bernardin con una estetica excepcional.',
+      ['Edicion Premium', 'Direccion de Arte', 'Estetica de Marca'],
       134
     );
 
@@ -295,12 +294,12 @@ export default function PricingCalculator() {
     doc.setFont('helvetica', 'bolditalic');
     doc.setFontSize(9);
     doc.setTextColor(16, 185, 129);
-    doc.text('"El campo es el motor de una nacion, y las maquinas de Bernardin son la fuerza que la haran producir."', margin, pageHeight - 20);
+    doc.text('"El campo es el motor de una nación, y las máquinas de Bernardin son la fuerza que la harán producir."', margin, pageHeight - 20);
 
     doc.setFont('helvetica', 'normal');
     doc.setFontSize(8);
     doc.setTextColor(156, 163, 175);
-    doc.text('Pag. 2 de 3 | Propuesta de Marca Bernardin', margin, pageHeight - 12);
+    doc.text('Pág. 2 de 3 | Propuesta de Marca Bernardin', margin, pageHeight - 12);
 
     // ==========================================
     // REPORTES PRESUPUESTO CON DETALLES (PAGINA 3)
@@ -321,7 +320,7 @@ export default function PricingCalculator() {
     doc.setTextColor(30, 41, 59);
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(14);
-    doc.text('2. PLANIFICACION ECONOMICA Y CONFIGURACION MODULAR', margin, 32);
+    doc.text('2. PLANIFICACIÓN ECONÓMICA Y CONFIGURACIÓN MODULAR', margin, 32);
 
     doc.setFillColor(228, 228, 231);
     doc.rect(margin, 36, contentWidth, 0.5, 'F');
@@ -329,7 +328,7 @@ export default function PricingCalculator() {
     doc.setFont('helvetica', 'normal');
     doc.setFontSize(9.5);
     doc.setTextColor(82, 82, 91);
-    const tableIntro = 'El esquema modular mensual permite flexibilizar las actividades de acuerdo al ciclo de siembra, cosecha o expoferias del sector. A continuacion, se presenta la configuracion comercial elegida en base a las opciones seleccionadas en nuestro visualizador interactivo:';
+    const tableIntro = 'El esquema modular mensual permite flexibilizar las actividades de acuerdo al ciclo de siembra, cosecha o expoferias del sector. A continuación, se presenta la configuración comercial elegida en base a las opciones seleccionadas en nuestro visualizador interactivo:';
     const tableIntroSplit = doc.splitTextToSize(tableIntro, contentWidth);
     doc.text(tableIntroSplit, margin, 42);
 
@@ -342,9 +341,9 @@ export default function PricingCalculator() {
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(9);
     doc.setTextColor(15, 23, 42);
-    doc.text('MODULO O PLAN DIGITAL', margin + 4, 64);
-    doc.text('ESTADO DE ACTIVACION', margin + 105, 64);
-    doc.text('INVERSION ESTIMADA', margin + 145, 64);
+    doc.text('MÓDULO O PLAN DIGITAL', margin + 4, 64);
+    doc.text('ESTADO DE ACTIVACIÓN', margin + 105, 64);
+    doc.text('INVERSIÓN ESTIMADA', margin + 145, 64);
 
     let tableY = 67;
     modules.forEach((m) => {
@@ -418,11 +417,9 @@ export default function PricingCalculator() {
     doc.setTextColor(71, 85, 105);
 
     nextY += 5;
-    doc.text('• Acceso a especificaciones de Ingenieria para el desarrollo de fichas tecnicas.', margin, nextY);
+    doc.text('• Acceso a especificaciones de Ingeniería para el desarrollo de fichas técnicas.', margin, nextY);
     nextY += 4.5;
-    doc.text('• Coordinacion de visitas a terreno con los concesionarios autorizados del pais.', margin, nextY);
-    nextY += 4.5;
-    doc.text('• Evaluacion mensual conjunta del costo y cantidad de leads registrados en WhatsApp.', margin, nextY);
+    doc.text('• Evaluación mensual conjunta del costo y cantidad de leads registrados en WhatsApp.', margin, nextY);
     nextY += 4.5;
     doc.text('• Transparencia total en pautas Meta Ads con reportes directos del administrador.', margin, nextY);
 
@@ -436,26 +433,26 @@ export default function PricingCalculator() {
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(8);
     doc.setTextColor(15, 23, 42);
-    doc.text('Director de Campana (Sound & Art)', margin + 12, nextY);
-    doc.text('Aprobacion de la Marca (Bernardin)', margin + 92, nextY);
+    doc.text('Director de Campaña (Sound & Art)', margin + 12, nextY);
+    doc.text('Aprobación de la Marca (Bernardin)', margin + 92, nextY);
 
     nextY += 4.5;
     doc.setFont('helvetica', 'normal');
     doc.setFontSize(7.5);
     doc.setTextColor(100, 116, 139);
     doc.text('Louis Naranjo / Sound and Art C.A.', margin + 12, nextY);
-    doc.text('Comite Comercial de Bernardin Venezuela', margin + 92, nextY);
+    doc.text('Comité Comercial de Bernardin Venezuela', margin + 92, nextY);
 
     // Pie de pagina 3
     doc.setFont('helvetica', 'bolditalic');
     doc.setFontSize(9);
     doc.setTextColor(16, 185, 129);
-    doc.text('"El campo es el motor de una nacion, y las maquinas de Bernardin son la fuerza que la haran producir."', margin, pageHeight - 20);
+    doc.text('"El campo es el motor de una nación, y las máquinas de Bernardin son la fuerza que la harán producir."', margin, pageHeight - 20);
 
     doc.setFont('helvetica', 'normal');
     doc.setFontSize(8);
     doc.setTextColor(156, 163, 175);
-    doc.text('Pag. 3 de 3 | Propuesta de Marca Bernardin', margin, pageHeight - 12);
+    doc.text('Pág. 3 de 3 | Propuesta de Marca Bernardin', margin, pageHeight - 12);
 
     doc.save('Propuesta_Comercial_Bernardin_Venezuela.pdf');
   };

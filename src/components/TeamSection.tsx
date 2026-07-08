@@ -16,14 +16,14 @@ export default function TeamSection() {
       ]
     },
     {
-      name: 'Célula de Producción Audiovisual',
-      description: 'Trasladamos el dinamismo del campo a la pantalla. Capturamos la verdadera potencia de los equipos Bernardin sobre el suelo llanero.',
+      name: 'Célula de Postproducción y Alta Estética Visual',
+      description: 'Diseñamos la línea estética y curamos el contenido visual de Bernardin. Postproducción cinematográfica y dirección de arte orientada a proyectar el máximo nivel de la marca.',
       icon: 'Film',
-      roles: ['Filmmakers Profesionales de Campo', 'Editores de Video / Ingenieros de Sonido', 'Diseñadores Gráficos Técnicos'],
+      roles: ['Directores de Arte Audiovisual', 'Editores Cinematográficos / Diseñadores de Sonido', 'Diseñadores Gráficos Editoriales'],
       deliverables: [
-        'Producción y traslado técnico al terreno llanero (Demostración activa).',
-        'Modelado gráfico publicitario bajo rigurosa veracidad técnica.',
-        'Tratamiento cinematográfico en Reels y TikTok para capturar la atención en los primeros 3 segundos.'
+        'Curación y postproducción de piezas audiovisuales con acabado cinematográfico premium.',
+        'Modelado gráfico y diseño publicitario bajo rigurosa veracidad técnica.',
+        'Tratamiento y edición de videos para Reels y TikTok enfocados en enganchar en los primeros 3 segundos.'
       ]
     },
     {
