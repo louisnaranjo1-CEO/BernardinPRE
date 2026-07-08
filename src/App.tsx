@@ -27,6 +27,7 @@ import InteractiveFeed from './components/InteractiveFeed';
 import AdsSimulator from './components/AdsSimulator';
 import PricingCalculator from './components/PricingCalculator';
 import TeamSection from './components/TeamSection';
+import AcuerdoSection from './components/AcuerdoSection';
 
 export default function App() {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -40,7 +41,8 @@ export default function App() {
     { id: 'equipo', title: 'Equipo Profesional', status: 'Líderes de Campaña' },
     { id: 'estetica', title: 'Estética de Marca', status: 'Feed Interactivo' },
     { id: 'simulador', title: 'Simulador de Ads', status: 'Inversión por Provincias' },
-    { id: 'precios', title: 'Presupuesto y Precios', status: 'Propuesta de Inversión' }
+    { id: 'precios', title: 'Presupuesto y Precios', status: 'Propuesta de Inversión' },
+    { id: 'acuerdo', title: 'Acuerdo Bernardin', status: 'Esquema de Reintegro' }
   ];
 
   const prevSlide = () => {
@@ -397,6 +399,15 @@ export default function App() {
                     </a>
                   </div>
                 </motion.div>
+              </div>
+            )}
+
+            {/* Slide 6: Acuerdo Bernardin */}
+            {activeSlide === 6 && (
+              <div className="space-y-6">
+                <div className="bg-black/20 p-2 sm:p-5 rounded-2xl border border-zinc-900/60 backdrop-blur-sm">
+                  <AcuerdoSection />
+                </div>
               </div>
             )}
 
